@@ -1,0 +1,3 @@
+cfg文件中增加vadtype参数，实时ASR使用，离线ASR不使用
+vadtype=0;    #不配置，或配置0 代表使用web rtc原版vad
+vadtype=1;    #代表使用web rtc版vad的优化版本
